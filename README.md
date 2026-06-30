@@ -17,7 +17,7 @@ Nombre: WES Content & Production Engine
 
 Descripción: Sistema automatizado de estrategia, copy y producción de activos visuales para WES.
 
-Instrucciones (Instructions): Copia y pega el contenido completo del archivo system_prompt.txt (Instrucciones Maestras).
+Instrucciones (Instructions): Copia y pega el contenido completo del archivo Instrucciones.txt 
 
 Capacidades (Capabilities): Asegúrate de habilitar "Code Interpreter" (para la generación de archivos .docx y .pptx). Desactiva el resto si no son necesarias.
 
@@ -26,16 +26,21 @@ Para que el agente pueda aplicar los colores y el estilo correctamente, es vital
 
 En la sección "Conocimiento" (Knowledge), haz clic en "Subir archivos".
 
-Sube el archivo Manual de Marca.docx proporcionado. Esto permitirá que el agente consulte los valores HEX y las directrices visuales antes de cada ejecución.
+Sube el documento Manual de Marca.docx proporcionado en el archivo Manual de Marca. Esto permitirá que el agente consulte los valores HEX y las directrices visuales antes de cada ejecución.
 
 4. Carga de Habilidades (Skills)
+5. 
+Descarga en tu computadora las 3 habilidades (WES Content Strategist), (WES Social Copywriter), (WES PowerPoint Automation) que te han sido proporcionadas en el archivo Skills_wes.
+
+En la configuración del agente, haz clic en "Añadir habilidad" (o "Add skill").
+
+Se abrirá una ventana emergente: en la barra lateral, selecciona la opción "Cargar skill" y sube los archivos .zip correspondiente.
+
+Asegúrate de cargar las 3 habilidades una por una según lo requerido para que el agente cuente con la base técnica completa.
+
 Las habilidades modularizan la lógica técnica (como la automatización de PowerPoint).
 
-Haz clic en "Añadir habilidad".
-
-Carga los archivos correspondientes (WES Content Strategist), (WES Social Copywriter), (WES PowerPoint Automation)
-   
-5. Guardado y Publicación
+6. Guardado y Publicación
 En la esquina superior derecha, haz clic en "Actualizar" o "Publicar".
 
 Selecciona "Solo yo" (privado) o "Cualquier persona con el enlace" para compartirlo con tu equipo de trabajo.
